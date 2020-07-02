@@ -25,13 +25,13 @@ export default function EditSock(props) {
         var obj={name,type,price,count}
         dispatch(editStock(index,obj));
         toast.success('Stock Details Saved', { position: toast.POSITION.TOP_CENTER });
-        setTimeout(()=>{window.location.replace("https://github.com/Aravinth-thunder/Stocks/dashboard")},2000);
+        setTimeout(()=>{window.location.replace("https://aravinth-thunder.github.io/Stocks/#/dashboard")},2000);
     }
     const deletestock= e =>{
         e.preventDefault();
         dispatch(deleteStock(index));
         toast.error('Stock Data Deleted', { position: toast.POSITION.TOP_CENTER });
-        setTimeout(()=>{window.location.replace("https://github.com/Aravinth-thunder/Stocks/dashboard")},2000);
+        setTimeout(()=>{window.location.replace("https://aravinth-thunder.github.io/Stocks/#/dashboard")},2000);
     }
     return (
         <div className="row">

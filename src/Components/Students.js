@@ -21,7 +21,7 @@ class Students extends React.Component {
     }
     edit = (e) => {
         var obj = JSON.parse(e.target.id);
-        window.location.replace("https://github.com/Aravinth-thunder/Stocks/editstudent/" + JSON.stringify(obj));
+        window.location.replace("https://aravinth-thunder.github.io/Stocks/#/editstudent/" + JSON.stringify(obj));
     }
     render() {
         if (this.state.students.length === 0) {

@@ -30,20 +30,20 @@ function App() {
           <div className="inner__sidebar_menu">
             <ul>
               <li>
-                <a href="https://github.com/Aravinth-thunder/Stocks/" style={{ color: 'white' }}>
+                <a href="https://aravinth-thunder.github.io/Stocks/#/" style={{ color: 'white' }}>
                   <span className="icon">
                     <i className="fas fa-user"></i></span>
                   <span className="list">Admin</span>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Aravinth-thunder/Stocks/dashboard" style={{ color: 'white' }}>
+                <a href="https://aravinth-thunder.github.io/Stocks/#/dashboard" style={{ color: 'white' }}>
                   <span className="icon"><i className="fa fa-tachometer "></i></span>
                   <span className="list">Dash Board</span>
                 </a>
               </li>
               <li>
-                  <a href="https://github.com/Aravinth-thunder/Stocks/income" style={{ color: 'white' }}>
+                  <a href="https://aravinth-thunder.github.io/Stocks/#/income" style={{ color: 'white' }}>
                     <span className="icon"><i className="fas fa-dollar"></i></span>
                     <span className="list">Total Income</span>
                   </a>

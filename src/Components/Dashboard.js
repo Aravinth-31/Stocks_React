@@ -18,7 +18,7 @@ function Dashboard() {
     const edit=(e,stock,index)=>{
         e.preventDefault();
         stock={...stock,index:index};
-        window.location.replace("https://github.com/Aravinth-thunder/Stocks/edit/"+JSON.stringify(stock));
+        window.location.replace("https://aravinth-thunder.github.io/Stocks/#/edit/"+JSON.stringify(stock));
     }
     console.log(stocks);
     return (
