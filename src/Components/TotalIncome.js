@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 
 export default function TotalIncome() {
-    const stocks = useSelector(state => state.stock);
+    const stocks = useSelector(state => state.sold);
     const income = useSelector(state =>state.income);
     const count = useSelector(state =>state.count);
     return (
@@ -45,7 +45,7 @@ export default function TotalIncome() {
                             </div>
                         )
                         :
-                        <h3 style={{ marginLeft: '10%' }}>No Stocks Available</h3>
+                        <h2 style={{ fontWeight:'bold',opacity:'0.7',marginLeft: '15%' }}>No Stocks Are Sold</h2>
                     }
                 </div>
             </div>

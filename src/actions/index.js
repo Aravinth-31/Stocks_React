@@ -51,3 +51,10 @@ export const addCount = () =>{
         type:'ADDCOUNT'
     }
 }
+
+export const addItem = (item) =>{
+    return {
+        type:'ADDITEM',
+        data:item
+    }
+}
