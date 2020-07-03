@@ -27,7 +27,7 @@ function Dashboard() {
             <div className="row">
                 <div className="col-md-2 col-lg-2"></div>
                 <div className="col-md-10 col-lg-10">
-                    <h2 style={{ marginLeft: '10%' }}>Stocks : </h2><br /><hr></hr>
+                    <h2 style={{ marginLeft: '10%' }}>Stocks : </h2><br />
                     {stocks.length ?
                         stocks.map((stock, index) =>
                             <div className="card" key={stock.name.toString()}>
